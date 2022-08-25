@@ -1,0 +1,130 @@
+ * {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: black;
+  
+}
+
+header >h1 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 150px;
+  text-align: center;
+  padding-top: 30px;
+  line-height: 2em;
+  font-size: 4em;
+}
+
+header >p {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+p >a {
+  text-decoration: none;
+  color: white;
+}
+
+p > a:hover {
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+}
+
+main {
+    min-width: 320px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.parte1 {
+  font-family: Verdana;
+  font-size: 2em;
+  padding: 10px;
+  margin: auto;
+  font-weight: bold;
+  font-style: italic;
+  }
+
+.parte2 {
+  background-image:  url(GIRASSOL.jpg) ;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100hr;
+  font-family: Verdana;
+  font-size: 2em;
+  padding: 10px;
+  margin: auto;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  
+}
+
+.div2 {
+  box-shadow: 10px 10px 10px  black;
+  box-shadow: solid;
+  
+}
+
+.parte3 {
+  font-family: Verdana;
+  font-size: 2em;
+  padding: 10px;
+  margin: auto;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.parte4 {
+  font-family: Verdana;
+  font-size: 2em;
+  padding: 10px;
+  margin: auto;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.parte5 {
+  background-image:url(manuscritos.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100hr;
+  font-family: Verdana;
+  font-size: 2em;
+  padding: 10px;
+  margin: auto;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+
+.parte6 {
+  font-family: Verdana;
+  font-size: 2em;
+  padding: 10px;
+  margin: auto;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.parte7 {
+  font-family: Verdana;
+  font-size: 2em;
+  padding: 10px;
+  margin: auto;
+  font-weight: bold;
+  font-style: italic;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
