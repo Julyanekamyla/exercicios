@@ -22,7 +22,7 @@ body {
 }
 
 header {
-  background-image: linear-gradient(to right, pink, rgb(250, 117, 199));
+  background-image:  url(fundoheader.jpg);
  }
 
 header >div {
