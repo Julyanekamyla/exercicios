@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela com colgroup</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    table {
+      width: 500px;
+      border-collapse: collapse;
+    }
+    
+    td, th {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+
+    caption {
+      font-size: 1.3em;
+          }
+    
+    col.nome {
+      background-color: yellow;
+    }
+
+    col.sexo {
+      background-color: blueviolet;
+    }
+
+    col.idade {
+      background-color: rgb(218, 27, 180);
+    }
+
+    col.profissão {
+      background-color: rgb(19, 46, 247);
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Exercício de Tabela</h1>
+  <table>
+    <colgroup>
+    <col class="nome">
+    <col class="sexo">
+    <col class="idade">
+    <col class="profissão">
+    </colgroup>
+    <caption>Cadastro</caption>
+    <thead>
+      <tr>
+        <th scope="col">Nome</th>
+        <th scope="col">Sexo</th>
+        <th scope="col">Idade</th>
+        <th scope="col">Profissão</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Igor Valentim</td>
+        <td>M</td>
+        <td>29</td>
+        <td>Engenheiro de dados</td>
+      </tr>
+      <tr>
+        <td>Julyane Kamyla</td>
+        <td>F</td>
+        <td>29</td>
+        <td>Empresária</td>
+      </tr>
+      <tr>
+        <td>Karina Boska</td>
+        <td>F</td>
+        <td>26</td>
+        <td>Psicóloga</td>
+      </tr>
+      <tr>
+        <td>Marcelo Menon</td>
+        <td>M</td>
+        <td>26</td>
+        <td>Engenheiro Florestal</td>
+      </tr>
+      <tr>
+        <td>Monique Horst</td>
+        <td>F</td>
+        <td>28</td>
+        <td>Dentista</td>
+      </tr>
+      <tr>
+        <td>Luiz Guilherme</td>
+        <td>M</td>
+        <td>29</td>
+        <td>Engenheiro Eletricista</td>
+      </tr>
+      <tr>
+    </tbody>
+  </table>
+</body>
+</html>
