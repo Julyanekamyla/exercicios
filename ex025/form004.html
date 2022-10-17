@@ -11,11 +11,11 @@
   <form action="cadastro.php" method="get">
     <p>
       <label for="email">E-mail</label>
-      <input type="email" name="email" id="email" autocomplete="email">
+      <input type="email" name="email" id="email" autocomplete="email" required>
     </p>
     <p>
       <label for="tel">Telefone</label>
-      <input type="tel" name="tel" id="tel" autocomplete="tel" pattern="^\">
+      <input type="tel" name="tel" id="tel" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required placeholder="(xx)xxxx-xxxx">
     </p>
     <p>
       <input type="submit" value="Enviar">
