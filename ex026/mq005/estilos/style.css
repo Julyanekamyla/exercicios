@@ -7,7 +7,10 @@
 }
 
 body {
-  background-color: orange;
+  background: orange url(../hamburguer.jpeg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
 }
 
 header {
@@ -17,6 +20,8 @@ header {
 header > h1 {
   text-align: center;
   padding: 10px;
+  color: orange;
+  text-shadow: 2px 1px 1px white;
 }
 
 menu {
@@ -26,7 +31,7 @@ menu {
 menu a {
   text-decoration: none;
   padding: 10px;
-  background-color: rgb(15, 71, 240);
+  background-color: rgb(14, 14, 14);
   display: block;
   color: rgb(249, 243, 243);
   text-align: center;
@@ -38,7 +43,7 @@ menu a:hover {
 }
 
 main {
-  background-color: rgba(255, 255, 255, 0.815);
+  background-color: rgba(255, 255, 255, 0.512);
   display: block;
   margin: auto;
   padding: 10px;
@@ -59,16 +64,16 @@ article p {
 }
 
 #burguer {
-  background-color: rgb(201, 201, 253)  ;
+  background-color: gray  ;
   display: block;
-  color: black;
+  color: orange;
   text-align: center;
   cursor: pointer;
   padding: 10px;
 }
 
 #burguer:hover {
-  background-color: rgb(253, 195, 88);
+  background-color: rgb(255, 226, 177);
 
 }
 
