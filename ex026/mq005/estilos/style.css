@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  background-color: gray;
+  background-color: rgba(104, 103, 103, 0.504);
 }
 
 header > h1 {
@@ -37,22 +37,32 @@ menu a {
   display: block;
   color: rgb(249, 243, 243);
   text-align: center;
-  border-top: 1px solid rgb(31, 154, 255);
+  border-top: 1px solid rgb(220, 239, 255);
 }
 
 menu a:hover {
   background-color: orange;
 }
 
+main h2 {
+  color: white;
+  text-shadow: 0.5px 0.5px 0.5px rgb(0, 0, 0);
+}
+
+main p {
+  color: white;
+  text-shadow: 0.3px 0.3px 0.px rgb(0, 0, 0);
+}
+
 main {
-  background-color: rgba(255, 255, 255, 0.512);
+  background-color: rgba(255, 172, 83, 0.184);
   display: block;
   margin: auto;
   padding: 10px;
   border-radius: 10px;
   margin-top: 10px;
   width: 90vw;
-}
+ }
 
 article h2 {
   text-align: center;
@@ -66,8 +76,7 @@ article p {
 }
 
 #burguer {
-  background-color: gray  ;
-  display: block;
+    display: block;
   color: orange;
   text-align: center;
   cursor: pointer;
@@ -75,7 +84,7 @@ article p {
 }
 
 #burguer:hover {
-  background-color: rgb(255, 226, 177);
+  background-color: rgba(255, 155, 40, 0.505);
 
 }
 
