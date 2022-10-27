@@ -1,0 +1,22 @@
+@charset "UTF-08";
+
+body {
+  background-color: orange;
+}
+
+header {
+  background-color: gray;
+}
+
+menu {
+  background-color: black;
+  color: white;
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0.551);
+  display: block;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
