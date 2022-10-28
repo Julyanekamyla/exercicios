@@ -22,7 +22,7 @@ header {
 header > h1 {
   text-align: center;
   padding: 10px;
-  color: orange;
+  color:  rgb(217, 161, 49);
   text-shadow: 2px 1px 1px white;
 }
 
@@ -41,7 +41,7 @@ menu a {
 }
 
 menu a:hover {
-  background-color: orange;
+  background-color: rgb(68, 50, 15);
 }
 
 main h2 {
@@ -84,7 +84,7 @@ article p {
 }
 
 #burguer:hover {
-  background-color: rgba(255, 155, 40, 0.505);
+  background-color:  rgb(68, 50, 15);
 
 }
 
